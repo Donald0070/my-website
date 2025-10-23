@@ -1,0 +1,68 @@
+
+  body {
+    height: 100vh;
+    background-image: url('intro\ مكتبة.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+}
+.back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(75 74 73 / 22.5%);
+  z-index: 1;
+}
+.content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+.text-center {
+  font-weight: bolder;
+  font-size: x-large;
+  color: #80fffa;
+  background-image: linear-gradient(#e16314, #000000, rgba(13, 110, 253, 0.25));
+  text-align: center!important;
+}
+button{
+  float: left;
+}
+  hr {
+    border: none;
+    border-top: 4px solid #80fffa;
+    opacity: 1;
+    margin: 1rem 0;
+  }
+   
+
+ .btn-primary {
+  font-size: large;
+      --bs-btn-color: #80fffa;
+      --bs-btn-bg: #ca5912;
+      --bs-btn-border-color: #0d6efd;
+      --bs-btn-hover-color: #fff;
+      --bs-btn-hover-bg: #0b5ed7;
+      --bs-btn-hover-border-color: #0a58ca;
+      --bs-btn-focus-shadow-rgb: 49,132,253;
+      --bs-btn-active-color: #80fffa;
+      --bs-btn-active-bg: #0a58ca;
+      --bs-btn-active-border-color: #0a53be;
+      --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+      --bs-btn-disabled-color: #fff;
+      --bs-btn-disabled-bg: #0d6efd;
+      --bs-btn-disabled-border-color: #0d6efd;
+  }
+  .btn:hover {
+    color: var(--bs-btn-hover-color);
+    /* background-color: #80fffa; */
+    border-color: var(--bs-btn-hover-border-color);
+}
+.dropdown-menu{
+  transition: all 0.3s ease;
+}
