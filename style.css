@@ -26,13 +26,13 @@ h4 {
   z-index: 2;
   color: white;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 10px;
 }
 .text-center {
   font-weight: bolder;
   font-size: 250%;
   color: #ffee0c;
-  background-image: linear-gradient(#e16314, #000000, rgba(13, 110, 253, 0.25));
+  background-image: linear-gradient(#e16314, #000000, rgba(13, 109, 253, 0));
   text-align: center !important;
 }
 P {
@@ -147,4 +147,104 @@ hr {
 .navbar-brand {
   font-weight: 300;
   color: #f5f00a;
+}
+dialog::backdrop {
+  display: block;
+  background: rgba(0, 0, 0, 0.4);
+}
+form {
+  display: grid;
+  justify-content: center;
+}
+dialog {
+  color: #f5f00a;
+  background-color: #ca5912;
+}
+.buttonv {
+  border-radius: 14px;
+  margin-top: 2.5px;
+  justify-content: center;
+  border: none;
+  background: #ca5912;
+  color: yellow;
+  display: flex !important
+;
+  justify-items: center;
+  float: left;
+}
+.buttonv:hover {
+  color: white;
+}
+.sstt {
+  background-color: #ffe801;
+}
+.table-bordered > :not(caption) > * > * {
+  border-width: 0;
+}
+.table {
+  --bs-table-color-type: initial;
+  --bs-table-bg-type: initial;
+  --bs-table-color-state: initial;
+  --bs-table-bg-state: initial;
+  --bs-table-color: #ffe362;
+  --bs-table-bg: #ca5912;
+  --bs-table-border-color: #dee2e617;
+  --bs-table-accent-bg: transparent;
+  --bs-table-striped-color: var(--bs-emphasis-color);
+  --bs-table-striped-bg: rgba(var(--bs-emphasis-color-rgb), 0.05);
+  --bs-table-active-color: var(--bs-emphasis-color);
+  --bs-table-active-bg: rgba(var(--bs-emphasis-color-rgb), 0.1);
+  --bs-table-hover-color: white;
+  --bs-table-hover-bg: rgba(var(--bs-emphasis-color-rgb), 0.075);
+  width: 100%;
+  margin-bottom: 1rem;
+  vertical-align: top;
+  border-color: var(--bs-table-border-color);
+}
+.table-light {
+  --bs-table-color: #000;
+  --bs-table-bg: #ca5912;
+  --bs-table-border-color: #f5f00a;
+  --bs-table-striped-bg: #ecedee;
+  --bs-table-striped-color: #000;
+  --bs-table-active-bg: #dfe0e1;
+  --bs-table-active-color: #000;
+  --bs-table-hover-bg: #e5e6e7;
+  --bs-table-hover-color: #000;
+  color: var(--bs-table-color);
+  border-color: var(--bs-table-border-color);
+}
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+  border-bottom-left-radius: 23px;
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+}
+.table-responsive {
+  margin: auto;
+  width: 70%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: #ca5912 !important;
+}
+.card-body {
+  border-radius: 13px;
+  background: chocolate;
+  flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: yellow;
+}
+
+.shadow-sm {
+  background: chocolate;
+  border-radius: 14px;
+  box-shadow: var(--bs-box-shadow-sm) !important;
 }
