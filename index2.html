@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="تجريبي .css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap&family=Playwrite+VN+Guides&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    
+      <div class="back">
+        <p class="text-center">
+          📚Welcome to our Library📚<br />&nbsp;&nbsp;&nbsp;&nbsp;📖Enjoy reading
+          books&nbsp;📖
+        </p>
+        <div class="content">
+          <h4 class="text-center">الموقع الرسمي لمشروع المكتبة الشاملة</h4>
+          <hr style="border-top: 4px dashed #f5f00a" />
+          <hr style="border-top: 4px dashed #f5f00a" />
+      <form action="#">
+        <h4 class="text-center" style="background-image: none; font-weight: 800; font-size: larger;">اختر نوع الكتاب</h4>
+        <select class="form-select" id="sel1" name="sellist1">
+          <option>تاريخية</option>
+          <option>دينية</option>
+          <option>سياسية</option>
+          <option>اخرى</option>
+        </select>
+        <input class="form-control" list="browsers" name="browser" id="browser" style="margin-top: 18px;">
+    <datalist id="browsers">
+      <option value="اجتماعية">
+      <option value="عسكرية">
+      <option value="اقتصادية">
+      <option value="جيو سياسية">
+      <option value="اخرى">
+    </datalist>    
+    <button type="submit" class="btn btn-primary buttonv mt-3" onclick="myDialog.showModal()">اضافة كتاب</button>
+  
+  <dialog id="myDialog">
+    <input  type="file" onclick="myDialog.close()"><button class="buttonv btn:hover" onclick="myDialog.close()">إغلاق</button></button>
+  </dialog>
+</form>
+        <script>
+          const myDialog = document.getElementById("myDialog");
+        </script>
+    </html>
+    <nav class="navbar fixed-bottom navbar-dark bg-dark">
+      <div class="container-fluid justify-content-around">
+        <a class="navbar-brand" href="#">🏠 عنوان الموقع</a>
+        <a class="navbar-brand" href="#">📄 الــشــهــادات</a>
+        <a class="navbar-brand" href="#">📞 الاتصال بنا</a>
+      </div>
+    </nav>
+  </body>
+</html>
